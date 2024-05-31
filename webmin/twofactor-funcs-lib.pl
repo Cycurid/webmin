@@ -5,10 +5,10 @@
 # containing an ID, name and URL for more info
 sub list_twofactor_providers
 {
-return ( [ 'totp', 'Google Authenticator',
-	   'http://en.wikipedia.org/wiki/Google_Authenticator' ],
-	 [ 'authy', 'Authy',
-	   'http://www.authy.com/' ] );
+return ( 
+		[ 'totp', 'Google Authenticator', 'http://en.wikipedia.org/wiki/Google_Authenticator'],
+		[ 'authy', 'Authy', 'http://www.authy.com/'],
+		['cycurid', 'CycurID BFA', 'https://cycurid.com'] );
 }
 
 # show_twofactor_apikey_authy(&miniserv)
