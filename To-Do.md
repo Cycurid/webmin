@@ -2,12 +2,10 @@
 
 This document needs to be updated with the purpose to integrate CycurID BFA in to the webmin list of providers for 2FA.
 
-===
 ## TODO
 
+- [x] Add CycurID to the list of providers
 - [ ] Create all the language files
-- [ ] 
-
 
 
 ### Create language files in twofactor.lang.auto.html/twofactor.lang.html
